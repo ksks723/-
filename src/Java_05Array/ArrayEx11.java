@@ -12,7 +12,7 @@ public class ArrayEx11 {
         System.out.println();
 
         for(int i= 0;i<numArr.length;i++){
-            counter[numArr[i]]++;
+            counter[numArr[i]]++;  
         }
 
         for(int i=0;i<numArr.length;i++){
