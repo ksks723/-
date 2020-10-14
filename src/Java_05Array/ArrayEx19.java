@@ -22,7 +22,7 @@ public class ArrayEx19 {
             korTotal    += score[i][0];
             engTotal    += score[i][1];
             mathTotal   += score[i][2];
-            System.out.printf("%5d",i+1);
+            System.out.printf("%5d",i+1); //이게번호
 
             for(int j =0; j< score[i].length;j++){
                 sum += score[i][j];
