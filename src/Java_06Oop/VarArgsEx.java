@@ -1,7 +1,7 @@
 package Java_06Oop;
 
 public class VarArgsEx {
-    public static void main(String[] args) {
+    public static void main(String[] args) { //가변인자
 
         String[] strArr = {"100","200","300"};
 
