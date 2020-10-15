@@ -19,7 +19,7 @@ public class FactorialTest2 {
                 break;
             }
 
-            System.out.printf("%d2!=%20d%n",i,result);
+            System.out.printf("%2d!=%20d%n",i,result);
         }
     }//main의 끝
 }
