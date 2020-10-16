@@ -1,6 +1,6 @@
 package Java_07Oop;
 
-public class DeckTest {
+public class DeckTest {//얘도 혼자서 한번 짜볼것
     public static void main(String[] args) {
         Deck d = new Deck();          //카드한벌을 만든다
         Card c = d.pick(0);    //섞기전에 제일 위의 카드를 뽑는다.
