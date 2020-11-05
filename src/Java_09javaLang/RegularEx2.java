@@ -3,7 +3,7 @@ package Java_09javaLang;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class RegularEx2 {    ////정규표현식 *******************
+public class RegularEx2 {    ////정규표현식 *******************  자바의정석 p507에 자세한 설명있음!
     public static void main(String[] args) {
         String[] data = {"bat", "baby", "bonus", "c", "cA", "ca", "co", "c.", "c0", "c#", "car", "combat", "count", "date", "disc"};
         String[] pattern = {".*", "c[a-z]*", "c[a-z]", "c[a-zA-Z]", "c[a-zA-z0-9]",
